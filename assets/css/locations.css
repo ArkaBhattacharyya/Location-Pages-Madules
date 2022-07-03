@@ -1,0 +1,185 @@
+/*
+Theme Name: Tcm
+Theme URI: 
+Author: Degital Aptech pvt.ltd WordPress team
+Author URI: 
+Description: 
+Version: 1.1.0
+Text Domain: Tcm
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700;900&display=swap');
+/* font-family: 'Raleway', sans-serif; font-family: 'Montserrat', sans-serif; */
+
+
+*{margin: 0; padding: 0; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
+.custom-banner{position: relative; font-family: 'Raleway', sans-serif; height: auto; padding: 60px 0; background-repeat: no-repeat; background-size: cover;}
+.custom-banner:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+.custom-banner-content{position: relative;z-index: 1;display: flex; flex-flow: row wrap; align-items: center; justify-content: space-between;height: 100%;}
+.custom-left-content{width: 40%;color: #fff; font-size: 24px;}
+.custom-contact-form{width: 48%;padding: 20px 30px 10px;border-radius: 15px;background-color: #fff;}
+.custom-left-content h2{font-size: 52px; color: #fff; font-weight: 600;font-family: 'Raleway', sans-serif;}
+.custom-left-content h2 span{font-weight: 400;font-family: 'Raleway', sans-serif;}
+.inner-section {width: 100%;max-width: 1230px;margin: 0 auto;padding: 0px 15px;}
+.inner-section ul li{margin-bottom: 5px;}
+
+.custom-contact-form h3{color: #009bdf;font-size: 1.375rem;margin-bottom: 15px;}
+.custom-form{list-style: none;display: flex; flex-flow: row wrap; align-items: center; justify-content: space-between;}
+.custom-form li{width: 48%;margin-bottom: 18px;}
+.custom-form li.wide{width: 100%;}
+.custom-form li input[type="text"], 
+.custom-form li input[type="email"], 
+.custom-form li input[type="password"], 
+.custom-form li input[type="file"], 
+.custom-form li input[type="date"], 
+.custom-form li input[type="tel"], 
+.custom-form li select, 
+.custom-form li textarea{    
+    border: 1px solid #cecece;
+    border-radius: 4px;
+    background-color: transparent;
+    padding: 5px 4px;
+    font-size: 20px;
+    line-height: 28px;
+    color: #434345;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.custom-form li textarea{
+    padding: 5px 4px;
+    line-height: 30px;
+    resize: none;
+    height: 80px;
+}
+.custom-form li input[type="button"], .custom-form li input[type="submit"], .custom-form li .btn, .btn-custom {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background: #a5d134;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all .2s ease-in;
+    font-family: Raleway;
+    width: 100%;
+}
+.custom-form li input[type="button"]:hover, .custom-form li input[type="submit"]:hover, .custom-form li .btn:hover, .btn-custom:hover{background: #6e8e1a;}
+
+.custom-bg-banner{position: relative; color: #fff;text-align: center; font-family: 'Raleway', sans-serif; padding: 80px 0; margin-bottom: 10px; display: flex; flex-flow: row wrap; align-items: center; justify-content: center; background-repeat: no-repeat; background-size: cover;}
+.custom-bg-banner:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+.custom-bg-banner .inner-section{text-align: center; position: relative; z-index: 1;}
+.custom-bg-banner .inner-section h2{color: #fff; font-size: 48px; font-family: 'Raleway', sans-serif;font-weight: 600; padding: 0px; margin: 0 0 20px; line-height: 1.2em;}
+.custom-bg-banner .inner-section p{color: #fff;max-width: 730px; text-align: center;margin-left: auto;margin-right: auto;font-size: 1.4rem; line-height: 1.4em;font-family: 'Montserrat', sans-serif;font-weight: bold;}
+.custom-bg-banner .inner-section .btn-custom{margin-top: 20px; font-size: 13px;display: inline-block; clear: both; width: auto;}
+
+.custom-paragraph{padding: 50px 0 30px;font-family: 'Montserrat', sans-serif; font-size: 16px;line-height: 20px;}
+.custom-paragraph p{margin-bottom: 30px; }
+.custom-paragraph ol{list-style: none;}
+.custom-paragraph ol li{margin-bottom: 5px;}
+.custom-banner p a{text-decoration: none;}
+.custom-banner .inner-section p{ font-size: 20px; line-height: 20px;font-family: 'Montserrat', sans-serif;font-weight: bold;}
+
+
+@media(max-width: 1024px){
+    .custom-form li input[type="text"], .custom-form li input[type="email"], .custom-form li input[type="password"], .custom-form li input[type="file"], .custom-form li input[type="date"], .custom-form li input[type="tel"], .custom-form li select, .custom-form li textarea{font-size: 1rem;}
+    .custom-left-content h2{font-size: 3rem;}
+    .custom-bg-banner .inner-section h2{font-size: 32px;}
+    .custom-bg-banner .inner-section p{font-size: 18px;}
+    .custom-paragraph{font-size: 14px;}
+    .inner-section{padding: 0px 30px;}
+    .custom-contact-form{width: 54%;}
+}
+
+@media(max-width: 768px){
+    .custom-left-content{width: 100%;margin-bottom: 20px;padding-top: 40px;}
+    .custom-contact-form{width: 100%;}
+}
+
+@media(max-width: 767px){   
+    .custom-left-content h2 {font-size: 30px;}
+    .custom-bg-banner .inner-section h2 {font-size: 24px;}
+    .custom-bg-banner .inner-section p {font-size: 18px;}
+    .custom-contact-form h3{font-size: 18px;}
+    .custom-banner{height: auto; padding: 50px 0;}
+    .custom-left-content{padding-top: 0;}
+}
+
+
+.selling-point{display: flex; flex-flow: row wrap; justify-content: space-between;margin-top: 80px;}
+.selling-point li{width: 30%; list-style: none; text-align: center;}
+.selling-point li .icon-bg{margin: 0 auto 40px; text-align: center; background: url(images/icon-bg.png) center no-repeat; width: 250px;height: 250px; line-height: 250px;}
+.selling-point li .icon-bg img{max-width: 100%; height: auto; max-height: 100px; object-fit: contain; vertical-align: middle;}
+.selling-point li h3{text-align: center;font-size: 36px;font-family: 'Raleway', sans-serif;font-weight: 600;padding: 0px;margin: 0 0 20px;line-height: 36px;}
+.selling-point li p{text-align: center;}
+
+@media(max-width: 1024px){
+    .selling-point{margin-top: 60px;}
+    .selling-point li h3{font-size: 24px;}
+    .selling-point li .icon-bg{width: 180px;height: 180px;line-height: 180px;background-size: 100% auto;}
+    .selling-point li .icon-bg img{max-height: 80px;}
+}
+
+
+@media(max-width: 767px){
+    .selling-point {margin-top: 40px;flex-direction: column;}
+    .selling-point li {width: 100%;list-style: none;margin-bottom: 25px;}
+    .selling-point li:last-child{margin-bottom: 0;}
+    .selling-point li .icon-bg {margin: 0 auto 20px;}
+}
+
+.icon-bg {
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    -webkit-clip-path: polygon(
+    29% 0, 71% 0, 100% 29%, 100% 71%, 71% 100%, 29% 100%, 0 71%, 0 29%
+  );
+  -moz-clip-path: polygon(
+    29% 0, 71% 0, 100% 29%, 100% 71%, 71% 100%, 29% 100%, 0 71%, 0 29%
+  );
+  -ms-clip-path: polygon(
+    29% 0, 71% 0, 100% 29%, 100% 71%, 71% 100%, 29% 100%, 0 71%, 0 29%
+  );
+  clip-path: polygon(
+    29% 0, 71% 0, 100% 29%, 100% 71%, 71% 100%, 29% 100%, 0 71%, 0 29%
+  );
+ 
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-field-row{max-width: 100% !important;}
+div.wpforms-container-full .wpforms-form .wpforms-field-row .wpforms-one-half{width: 48%;}
+div.wpforms-container-full .wpforms-form .wpforms-field input[type=email]{max-width: 100% !important;}
+div.wpforms-container-full .wpforms-form .wpforms-submit-container button[type=submit]{}
+.custom-paragraph ul:not(.selling-point){list-style-type: '-'; padding-left: 10px;}
+.custom-paragraph ul:not(.selling-point) li{margin-bottom: 10px;padding-left: 12px;}
+.custom-paragraph ul li::marker{font-size: 24px; margin-right: 10px;}

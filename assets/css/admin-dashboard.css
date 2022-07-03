@@ -1,0 +1,52 @@
+.form-table td .form-group{margin-bottom: 15px;display: flex;align-items: center;}
+.form-table td button, 
+.form-table td input[type="submit"], 
+#wpbody-content input[type="submit"], 
+.form-table td input[type="button"]{padding: 3px 12px;}
+
+.form-table td input[type=date], 
+.form-table td input[type=datetime-local], 
+.form-table td input[type=datetime], 
+.form-table td input[type=email], 
+.form-table td input[type=month], 
+.form-table td input[type=number], 
+.form-table td input[type=password], 
+.form-table td input[type=search], 
+.form-table td input[type=tel], 
+.form-table td input[type=text], 
+.form-table td input[type=time], 
+.form-table td input[type=url], 
+.form-table td input[type=week]{width: 100%;}
+
+.form-table td input[name="main_key_phrase[]"]{margin-left: 15px;}
+.wp-admin input[type=file] {
+    cursor: pointer;
+    width: 100%;
+    box-shadow: 0 0 0 transparent;
+    border-radius: 4px;
+    border: 1px solid #8c8f94;
+    background-color: #fff;
+    color: #2c3338;
+}
+.form-table td.save-btn{text-align: right;}
+.form-table td.save-btn input[type="submit"]{background-color: goldenrod; cursor: pointer; color: #fff; border: 0; padding: 8px 25px !important; border-radius: 4px;}
+.form-table td.save-btn input[type="submit"]:hover{background-color: #2271b1;}
+.upload-box{display: flex;}
+.adding-box{padding-left:10px; padding-right: 10px;}
+.form-table td button#remove-button{background-color: #d63638; cursor: pointer; color: #fff; border:0;padding: 6px 15px; border-radius: 4px;}
+.form-table td button#remove-button:hover{background-color: #1d2327;}
+
+.form-table td button#add-button{background-color: #2271b1; cursor: pointer; color: #fff; border:0;padding: 6px 15px; border-radius: 4px;}
+.form-table td button#add-button:hover{background-color: #1d2327;}
+
+.form-table td .upload-box input[type="button"], .upload-box input[type="submit"]{background-color: darkseagreen; cursor: pointer; color: #fff; border:0; border-radius: 4px;}
+.form-table td .upload-box input[type="button"]:hover, .upload-box input[type="submit"]:hover{background-color: #1d2327;}
+
+.para{margin-bottom: 40px;}
+#wpbody-content h3{font-size: 1.6em;}
+
+
+
+
+
+
